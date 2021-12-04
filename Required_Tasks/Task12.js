@@ -11,17 +11,18 @@ for (let i = 0; i < words.length; i++) {
 console.log(newSentence);
 
 // Way 2
-let sentence = "_, we have a _.";
-let words = ["Houston", "problem"];
-let splitedSentence = sentence.split("");
-console.log(splitedSentence);
-for (let i = 0; i < splitedSentence.length; i++) {
-  for (let j = 0; j < words.length; i++) {
-    if (splitedSentence[i] === "_") {
-      splitedSentence[i] = words[j];
-    }
-  }
-}
-console.log(splitedSentence);
+// let sentence = "_, we have a _.";
+// let words = ["Houston", "problem"];
+// let arrSentence = sentence.split("");
+// console.log(arrSentence);
+// for (let i = 0; i < arrSentence.length; i++) {
+//   for (let j = 0; j < words.length; i++) {
+//     if (arrSentence[i] === "_") {
+//       arrSentence[i] = words[j];
+//     }
+//   }
+// }
+// console.log(arrSentence);
 
 // My ways of solving the task. Why doesn't both work? :D
+// The way 2 seems to execute an infinity loop, so I've made it a comment.
